@@ -895,8 +895,5 @@ pragma solidity ^0.5.2;
         constructor()
         ERC20Detailed("K-Tune Token", "KTT", 18)
         public {
-            uint256 supply = 10000000000;
-            uint256 initialSupply = supply * uint(10) ** decimals();
-            _mint(msg.sender, initialSupply);
         }
     }
