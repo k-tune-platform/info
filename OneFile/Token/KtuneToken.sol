@@ -895,5 +895,6 @@ pragma solidity ^0.5.2;
         constructor()
         ERC20Detailed("K-Tune Token", "KTT", 18)
         public {
+		// ERC20 Token definitaion area
         }
     }
